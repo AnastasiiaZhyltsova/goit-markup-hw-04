@@ -212,48 +212,16 @@ ul {
 .features {
   display: flex;
 }
-.feature-item.details::before {
+
+.feature-icon {
   display: block;
+  width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  padding: 25px 100px;
 
-  content: "";
-  background-image: url(..//image/detail.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--secondary-background-color);
-}
-.feature-item.time::before {
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
+  justify-content: center;
 
-  content: "";
-  background-image: url(..//image/clock.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--secondary-background-color);
-}
-.feature-item.planning::before {
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-
-  content: "";
-  background-image: url(..//image/diagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--secondary-background-color);
-}
-.feature-item.technology::before {
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-
-  content: "";
-  background-image: url(..//image/astronaut.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: var(--secondary-background-color);
 }
 
@@ -263,20 +231,16 @@ ul {
 
 .feature-title {
   min-width: 270px;
-  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .feature-text {
   width: 270px;
-  margin-top: 0;
-  margin-bottom: 0;
 
   font-size: 14px;
   line-height: 1.7;
