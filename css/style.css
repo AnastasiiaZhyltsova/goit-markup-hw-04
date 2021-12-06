@@ -364,7 +364,8 @@ ul {
   fill: var(--social-link-color);
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--accent-color);
 
   fill: var(--accent-color);
