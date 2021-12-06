@@ -423,7 +423,6 @@ ul {
 /* footer social networks  */
 
 .join-title {
-  height: 16px;
   margin-bottom: 20px;
 
   font-weight: bold;
@@ -445,8 +444,6 @@ ul {
   padding-top: 75px;
   padding-bottom: 97px;
 }
-.social-networks.footer {
-}
 
 .social-item {
   margin-right: 10px;
@@ -456,9 +453,6 @@ ul {
 }
 
 .social-link.footer {
-  /* display: flex; */
-
-  /* justify-content: center; */
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
